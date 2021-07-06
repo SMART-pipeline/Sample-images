@@ -40,7 +40,7 @@
         </section>
 
         <footer>
-          Will be updated soon.
+          Updated on July 6th, 2021.
         </footer>
 
       </div>
@@ -56,4 +56,16 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+	  
+    {% if site.baidu_tongji %}
+      <script>
+        var _hmt = _hmt || [];
+        (function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu_tongji }}";
+		var s = document.getElementsByTagName("script")[0]; 
+		s.parentNode.insertBefore(hm, s);
+	})();
+      </script>
+
   </body>
