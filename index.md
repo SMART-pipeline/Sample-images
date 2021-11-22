@@ -5,21 +5,26 @@
 The full dataset of a macaque brain is ~250 TB 16-bit TIFF images. Below are sample images of several slices.
 
 ## Sample 2D projections
-### Imageset 1: superior collicuclus
+### Imageset 1: whole mouse brain
+A Thy1-eGFP transgenic mouse brain was sectioned into 40+ slices of 300-µm thickness and stained with DAPI and NeuroTrace 640/660 (NT640). The maximum intensity projection (MIP) images of all of these slices could be viewed in the SMART Image Browser.
+
+[http://smart.siat.ac.cn/slides-data2/slides.html?data=goRbjKTeesreXkZfwbpYLmhmhFKdDgSvAkYmznsbotrueePPUqCmyxdAYWrbLmyp&slide=23&site=t](http://smart.siat.ac.cn/slides-data2/slides.html?data=goRbjKTeesreXkZfwbpYLmhmhFKdDgSvAkYmznsbotrueePPUqCmyxdAYWrbLmyp&slide=23&site=t)
+
+### Imageset 2: monkey superior collicuclus
 This rhesus monkey was injected with AAV-Cre plus AAV-DIO-eGFP, and AAV-Cre plus AAV-DIO-mCherry into bilateral superior collicuclus (SC). The brain was sectioned into 300-µm slices, which were also stained with NeuroTrace 640/660 (NT640), a fluorescent Nissl stain. 
 
 Example 3-channel maximum intensity projection (MIP) images resliced (50-µm each) from a sections could be viewed in the SMART Image Browser: (Related to Fig. 1m-n)
 
 [http://smart.siat.ac.cn/slides.html?data=200309-006-156&slide=784&site=l](http://smart.siat.ac.cn/slides.html?data=200309-006-156&slide=784&site=l)
 
-### Imageset 2: mediodorsal nucleus
+### Imageset 3: monkey mediodorsal nucleus
 This rhesus monkey was injected with AAV-Cre plus AAV-DIO-eGFP, and AAV-Cre plus AAV-DIO-mCherry into bilateral mediodorsal nucleus of thalamus (MD). The brain was sectioned into 300-µm slices, imaged and analyzed following the SMART pipeline.
 
 Example 2-channel maximum intensity projection (MIP) images resliced (50-µm each) from 6 consecutive sections could be viewed in the SMART Image Browser: (Related to Fig. 2e) 
 
 [http://smart.siat.ac.cn/slides.html?data=006-9095-6&site=l](http://smart.siat.ac.cn/slides.html?data=006-9095-6&site=l)
 
-### Imageset 3: staining of neurons and glial cells
+### Imageset 4: staining of monkey neurons and glial cells
 This monkey brain slice was stained with Anti-Glial Fibrillary Acidic Protein (GFAP), a marker for astrocytes, and NT640. 
 
 Example 2-channel maximum intensity projection (MIP) images resliced (30-µm each) from this slice could be viewed in the SMART Image Browser: (Related to Supplementary Fig. 3) 
@@ -28,7 +33,7 @@ Example 2-channel maximum intensity projection (MIP) images resliced (30-µm eac
 
 
 ## Sample 3D image blocks
-### Imageset 3: axonal morphology
+### Imageset 5: axonal morphology
 [Lychnis tracer](https://github.com/SMART-pipeline/Lychnis-tracing) is for 3D fiber tracing in raw image spaces.
 
 A series of image blocks that are surrounding a thalamocortical axon (RM006-004; shown in Fig. 4, Supplementary Fig. 13, and Supplementary Video 6) is accessible from the [zenodo link](https://doi.org/10.5281/zenodo.4451992) provided in the manuscript. Due to the limit of file size in zenodo and figshare, the current version in zenodo is of lower resolution. The dataset with larger size could be accessed via the following link:
